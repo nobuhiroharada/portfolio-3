@@ -24,10 +24,6 @@ nav {
   z-index: 2;
 }
 
-.logo {
-  width: 16.25rem;
-}
-
 /*----- MENU LINKS --------*/
 nav a.nav-link {
   font-size: 0.8rem;
