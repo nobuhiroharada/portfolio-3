@@ -145,12 +145,13 @@ nav ul li {
   width: 16rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid var(--primary-dark);
+  border: 1px solid var(--primary-dark-grey);
 }
 
-.about-heading {
-  color: var(--primary-dark);
+.about h1 {
+  color: var(--primary-dark-grey);
   text-transform: uppercase;
+  text-align: center;
 }
 
 @media (max-width: 468px) {
@@ -167,8 +168,13 @@ nav ul li {
 }
 
 .services h1 {
-  color: var(--primary-dark);
+  color: var(--primary-dark-grey);
   text-transform: uppercase;
+}
+
+.services h3,
+p {
+  color: var(--primary-dark-grey);
 }
 
 .services .circle {
