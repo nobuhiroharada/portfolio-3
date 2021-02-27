@@ -203,8 +203,8 @@ nav ul li {
 }
 
 .services .box:hover {
-  background: var(--primary-light-grey);
   border-bottom: 0.3125rem solid var(--primary-dark-white);
+  opacity: 0.7;
 }
 
 .services .box:hover .icon {
